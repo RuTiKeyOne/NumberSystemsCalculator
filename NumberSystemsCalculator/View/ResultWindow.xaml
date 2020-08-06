@@ -1,0 +1,12 @@
+﻿<Window x:Class="NumberSystemsCalculator.View.ResultWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NumberSystemsCalculator.View"
+        mc:Ignorable="d"
+        Title="ResultWindow" Height="150" Width="300" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize"  WindowStyle="None" Background="#FF4C1F6F">
+    <Grid>
+        <TextBlock  HorizontalAlignment="Center"  VerticalAlignment="Center" Foreground="White" FontWeight="Light" FontSize="17.5"/>
+    </Grid>
+</Window>
