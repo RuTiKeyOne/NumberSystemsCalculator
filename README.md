@@ -1,2 +1,2 @@
 # NumberSystemsCalculator
-Creating a simple number systems calculator
+Creating a simple number systems calculator with MVVM
