@@ -12,7 +12,7 @@ namespace NumberSystemsCalculator.Model
         public static void TransformNumber(string value, int inTheNumberSystem)
         {
             string result = string.Empty;
-            if (int.TryParse(value, out int IsNeedTransform) && IsNeedTransform > 0)
+            if (int.TryParse(value, out int IsNeedTransform) && IsNeedTransform > 0 && inTheNumberSystem > 0)
             {
                 do
                 {
